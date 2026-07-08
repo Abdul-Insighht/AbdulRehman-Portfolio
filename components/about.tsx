@@ -43,7 +43,7 @@ export default function About() {
                         <div className="relative">
                             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/50 profile-glow">
                                 <Image
-                                    src="/profile.png"
+                                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/profile.png`}
                                     alt="Hafiz Abdul Rehman"
                                     width={320}
                                     height={320}

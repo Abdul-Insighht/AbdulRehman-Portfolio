@@ -164,7 +164,7 @@ export default function Projects() {
                                 {/* Image Container with Overlay */}
                                 <div className="relative h-48 w-full overflow-hidden">
                                     <Image
-                                        src={project.image}
+                                        src={project.image.startsWith('/') ? `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${project.image}` : project.image}
                                         alt={project.title}
                                         fill
                                         className="object-cover transition-all duration-700 group-hover:scale-110 group-hover:brightness-110"
