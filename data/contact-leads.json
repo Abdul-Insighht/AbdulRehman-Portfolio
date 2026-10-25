@@ -1,5 +1,38 @@
 [
   {
+    "id": "lead_1792924055478_94a35",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T10:27:35.478Z",
+    "status": "new"
+  },
+  {
+    "id": "lead_1792924023564_m65hz",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T10:27:03.564Z",
+    "status": "new"
+  },
+  {
+    "id": "lead_1792923941531_r8bcf",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T10:25:41.531Z",
+    "status": "new"
+  },
+  {
     "id": "lead_1792920399426_26rva",
     "name": "Dr. Sarah Mitchell",
     "email": "sarah.mitchell@medvision-health.org",

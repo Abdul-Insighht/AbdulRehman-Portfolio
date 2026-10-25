@@ -46,7 +46,7 @@ export default function AbdulInsightBot() {
       id: "initial-greeting",
       role: "assistant",
       content:
-        "Assalam o Alaikum! I am **AbdulInsight AI**, the personal portfolio assistant for **Hafiz Abdul Rehman** (Data Scientist & AI/ML Engineer).\n\nAsk me about his **57 verified repositories**, medical deep learning accuracies (99.64% Attention U-Net), real-time YOLO tracking systems, or freelance availability!",
+        "Assalam o Alaikum! I am AbdulInsight AI, the personal assistant for Hafiz Abdul Rehman, an AI & Machine Learning Engineer.\n\nFeel free to ask me about his engineering work at AiBit Soft, research papers (such as the 99.64% BraTS Attention U-Net), real-time YOLO vision systems, or how to get in touch across his 57 repositories.",
       timestamp: new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" }),
       followUps: [
         "What accuracy was achieved in Brain Tumor segmentation?",
@@ -273,7 +273,7 @@ export default function AbdulInsightBot() {
                   {/* Security / Verification Badge */}
                   <div className="flex items-center justify-center gap-1.5 text-[11px] text-muted-foreground bg-slate-900/60 py-1.5 px-3 rounded-full border border-slate-800/80 mx-auto w-fit">
                     <ShieldCheck className="h-3.5 w-3.5 text-primary" />
-                    <span>Trained strictly on verified facts • Zero hallucinations</span>
+                    <span>Personal AI Assistant • Grounded in verified engineering work</span>
                   </div>
 
                   {messages.map((m) => (
@@ -305,7 +305,7 @@ export default function AbdulInsightBot() {
                               : "bg-slate-900/90 border border-slate-800 text-slate-200 rounded-tl-none whitespace-pre-line"
                           }`}
                         >
-                          {m.content}
+                          {m.content ? m.content.replace(/\*\*/g, '') : ''}
 
                           {/* Action Button if attached */}
                           {m.action && m.action.type !== "none" && m.action.url && (

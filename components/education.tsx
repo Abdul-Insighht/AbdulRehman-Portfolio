@@ -7,39 +7,78 @@ import { GraduationCap, Award, ExternalLink } from "lucide-react"
 const education = [
     {
         degree: "Bachelor of Science in Data Science",
-        institution: "Gift University",
+        institution: "GIFT University",
         location: "Gujranwala, Pakistan",
-        period: "2022 – Present",
-        grade: "CGPA: 3.6/4.0",
+        period: "2022 – 2026",
+        grade: "CGPA: 3.68/4.0 (Semesters 7 & 8: 4.0/4.0)",
+        coursework: "Machine Learning, Deep Learning, Computer Vision, NLP, Statistical Analysis, Data Visualization, Artificial Intelligence, Generative AI",
     },
     {
         degree: "FSC Pre-Engineering",
         institution: "ACE Group of Colleges",
-        location: "",
+        location: "Gujranwala, Pakistan",
         period: "2020 – 2022",
         grade: "Grade: A",
+        coursework: "Mathematics, Physics, Chemistry",
     },
     {
-        degree: "Matric in Science",
+        degree: "Matriculation in Science",
         institution: "Iqra Huffaz Secondary School",
-        location: "",
+        location: "Gujranwala, Pakistan",
         period: "2018 – 2020",
         grade: "Grade: A+",
+        coursework: "Science, Mathematics, Computer Studies",
     },
 ]
 
 const certifications = [
     {
+        name: "Agentic AI and AI Agents: A Primer for Leaders",
+        issuer: "Coursera",
+        year: "2025",
+        link: "https://coursera.org/share/9a94de4340a1a4c583f75e933ed392c3",
+    },
+    {
+        name: "Programming with Generative AI (IIT)",
+        issuer: "Coursera / IIT",
+        year: "2025",
+        link: "https://coursera.org/share/8ed23e0eaa7ace7f3b00f975fc43d092",
+    },
+    {
+        name: "Applied Data Science with Python",
+        issuer: "Coursera",
+        year: "2024",
+        link: "https://drive.google.com/file/d/1PtjMnD2TLqUscWAKj7cHqflwECT1Nyzc/view",
+    },
+    {
+        name: "Machine Learning with Python",
+        issuer: "Coursera",
+        year: "2024",
+        link: "https://coursera.org",
+    },
+    {
+        name: "Introduction to Computer Vision and Image Processing",
+        issuer: "Coursera",
+        year: "2024",
+        link: "https://coursera.org",
+    },
+    {
+        name: "Deep Learning with PyTorch",
+        issuer: "Coursera",
+        year: "2024",
+        link: "https://coursera.org",
+    },
+    {
+        name: "AI Capstone Project with Deep Learning",
+        issuer: "Coursera",
+        year: "2025",
+        link: "https://coursera.org",
+    },
+    {
         name: "GitHub Global Campus — Student Developer Pack",
         issuer: "GitHub Education",
         year: "2024 – Present",
         link: "https://education.github.com/pack",
-    },
-    {
-        name: "Agentic AI and AI Agents for Leaders",
-        issuer: "Coursera",
-        year: "2025",
-        link: "https://coursera.org/share/9a94de4340a1a4c583f75e933ed392c3",
     },
     {
         name: "Prompt Engineering for ChatGPT",
@@ -52,24 +91,6 @@ const certifications = [
         issuer: "Coursera",
         year: "2025",
         link: "https://coursera.org/share/f54aa14bcfa0cb58f1983b52a878c28e",
-    },
-    {
-        name: "Programming with Generative AI (IIT)",
-        issuer: "Coursera",
-        year: "2025",
-        link: "https://coursera.org/share/8ed23e0eaa7ace7f3b00f975fc43d092",
-    },
-    {
-        name: "Applied Data Science with Python",
-        issuer: "Certification",
-        year: "2024",
-        link: "https://drive.google.com/file/d/1PtjMnD2TLqUscWAKj7cHqflwECT1Nyzc/view",
-    },
-    {
-        name: "Data Analysis with R Programming",
-        issuer: "Certification",
-        year: "2024",
-        link: "https://drive.google.com/file/d/1xh0FzDRjVkb1al8qJcKMDjOxUuqjWzHE/view",
     },
 ]
 
@@ -117,10 +138,15 @@ export default function Education() {
                                         </div>
                                     </CardHeader>
                                     <CardContent className="pt-0 pl-20">
-                                        <div className="flex gap-4 text-sm">
+                                        <div className="flex flex-wrap items-center gap-3 text-sm mb-2">
                                             <span className="text-muted-foreground">{edu.period}</span>
                                             <span className="text-primary font-medium">{edu.grade}</span>
                                         </div>
+                                        {edu.coursework && (
+                                            <p className="text-xs text-slate-400 mt-1">
+                                                <strong className="text-slate-300">Coursework:</strong> {edu.coursework}
+                                            </p>
+                                        )}
                                     </CardContent>
                                 </Card>
                             </motion.div>

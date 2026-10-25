@@ -8,79 +8,131 @@ import { Button } from "@/components/ui/button"
 
 const RESEARCH_PAPERS = [
   {
-    id: "brats-attention-unet",
-    title: "Attention U-Net for 3D Multimodal MRI Brain Tumor Segmentation",
-    dataset: "BraTS 2020 Benchmark",
+    id: "fyp-remote-sensing-ot-sam",
+    title: "Enhancing Referring Remote Sensing Image Segmentation through Optimal Transport Alignment and Segment Anything Model (SAM)",
+    dataset: "Multi-Spectral Aerial & Earth Observation Datasets",
     authors: "Hafiz Abdul Rehman",
-    status: "Validated Academic Research",
-    accuracy: "99.64% Validation Accuracy | 0.986 Mean IoU",
+    status: "Final Year Project (2026)",
+    accuracy: "Optimal Transport Multi-Modal Alignment",
     abstract:
-      "This study presents an Attention U-Net architecture engineered for sub-millimeter 3D brain tumor delineation across T1, T1ce, T2, and FLAIR MRI modalities. By integrating soft spatial-channel attention gates, the network suppresses irrelevant background activations while accentuating salient peritumoral edema, necrotic core, and enhancing tumor margins under extreme class imbalance.",
+      "A novel cross-modal architecture formulating Wasserstein Optimal Transport distance to align complex natural language referring expressions with fine-grained aerial satellite imagery, adapting Meta's Segment Anything Model (SAM) for boundary-accurate remote sensing segmentation.",
     highlights: [
-      "99.64% accuracy across BraTS 2020 validation cohort",
-      "0.986 Mean Intersection-over-Union (IoU) on whole tumor volume",
-      "Integrated Focal Dice Loss to conquer severe voxel disproportion",
-      "Sub-2-second 3D volume inference with interactive Streamlit visualization",
+      "Optimal transport formulation for cross-modal linguistic-spatial alignment",
+      "Parameter-efficient fine-tuning of Segment Anything Model (SAM) on satellite imagery",
+      "Robust resolution of multi-scale geographic clutter and shadow occlusions",
+      "Awarded 4th Place out of 64 engineering teams at GIFT University FYP Display 2026",
     ],
-    githubUrl: "https://github.com/Abdul-Insighht/Brain-Tumor-Segmentation-BraTS-2020",
-    tags: ["Attention U-Net", "Medical Imaging", "BraTS 2020", "PyTorch", "PyVista 3D"],
+    githubUrl: "https://github.com/Abdul-Insighht",
+    tags: ["Optimal Transport", "SAM", "Remote Sensing", "Cross-Modal AI", "PyTorch"],
   },
   {
-    id: "covid-fuzzy-ensemble",
-    title: "Sugeno Fuzzy Integral Non-Linear Ensemble for COVID-19 Radiographic Classification",
+    id: "survey-referring-remote-sensing",
+    title: "A Comprehensive Survey of Referring Remote Sensing Image Segmentation — From Supervised Cross-Modal Learning to Multimodal Foundation Models",
+    dataset: "Global Earth Observation Benchmarks",
+    authors: "Hafiz Abdul Rehman",
+    status: "Survey Paper (In Progress)",
+    accuracy: "Exhaustive State-of-the-Art Taxonomy",
+    abstract:
+      "An in-depth state-of-the-art survey charting the trajectory of Referring Remote Sensing Image Segmentation (RRSIS). Bridges the gap between early supervised multi-modal attention networks and modern multimodal vision-language foundation models.",
+    highlights: [
+      "Taxonomy of linguistic vision groundings in satellite and drone observation",
+      "Comparative benchmark analysis of Transformer backbones and attention gating",
+      "Identification of key open challenges in scale-invariance and spatial ambiguity",
+    ],
+    githubUrl: "https://github.com/Abdul-Insighht",
+    tags: ["Survey Paper", "Foundation Models", "Vision-Language", "Earth Observation"],
+  },
+  {
+    id: "covid-tda-cnn-ensemble",
+    title: "COVID-19 Detection from CT Scan Images using Topological Data Analysis and CNN Ensemble",
     dataset: "Lung CT Scan Cohort",
     authors: "Hafiz Abdul Rehman",
-    status: "Published Benchmark",
+    status: "Research Paper",
     accuracy: "98.93% Test Accuracy | 99.1% Sensitivity",
     abstract:
-      "A novel non-linear decision fusion framework using the Sugeno Fuzzy Integral to aggregate diverse representations from 4 distinct convolutional neural network backbones (VGG-11, GoogLeNet, SqueezeNet, and Wide ResNet-50-2). The model resolves ambiguity in ground-glass opacities between viral COVID-19 and atypical pneumonia.",
+      "A non-linear decision fusion framework using the Sugeno Fuzzy Integral and Topological Data Analysis (TDA) persistent homology to aggregate diverse representations from multiple convolutional backbones (VGG-11, GoogLeNet, SqueezeNet, Wide ResNet-50-2), resolving ambiguities in ground-glass opacities.",
     highlights: [
       "98.93% overall diagnostic classification accuracy",
-      "99.1% sensitivity on bilateral infiltrates",
-      "Grad-CAM visual attribution maps providing verifiable radiographic explanations",
-      "Non-linear Sugeno fuzzy measure calculation outperforming majority voting by 4.2%",
+      "99.1% sensitivity on bilateral lung infiltrates",
+      "Topological persistent homology capturing multi-scale geometric lesion features",
+      "Grad-CAM visual attribution maps providing clinically verifiable explanations",
     ],
     githubUrl: "https://github.com/Abdul-Insighht/COVID-19-Detection-CNN-Ensemble",
-    tags: ["Ensemble Learning", "Fuzzy Measure", "Grad-CAM", "CT Radiography", "Python"],
+    tags: ["Topological Data Analysis", "Fuzzy Ensemble", "CT Radiography", "Grad-CAM"],
   },
   {
-    id: "soct-sam-foundation",
-    title: "SOCT-SAM: Zero-Shot Foundation Model Adaptation for Optical Coherence Tomography",
-    dataset: "Retinal OCT Scans",
+    id: "brats-attention-unet",
+    title: "3D Brain Tumor Segmentation using Attention U-Net",
+    dataset: "BraTS 2020 Benchmark",
     authors: "Hafiz Abdul Rehman",
-    status: "Research Repository",
-    accuracy: "High-Fidelity Layer Segmentation",
+    status: "Key Research & Clinical Engineering",
+    accuracy: "99.64% Validation Accuracy | 0.986 IoU",
     abstract:
-      "Adapting Meta's Segment Anything Model (SAM) with prompt-guided fine-tuning for zero-shot and few-shot segmentation of retinal layers and fluid accumulations in Spectral-Domain Optical Coherence Tomography (SD-OCT).",
+      "Engineered an attention-gated 3D U-Net architecture for volumetric multimodal MRI brain tumor segmentation across T1, T1ce, T2, and FLAIR scans, conquering extreme class imbalance with Focal Dice Loss.",
     highlights: [
-      "Automated prompt generation for retinal boundary localization",
-      "Robust performance across noisy speckle optical tomography scans",
-      "Comprehensive evaluation against traditional level-set algorithms",
+      "99.64% validation accuracy across BraTS 2020 cohort",
+      "0.986 Intersection-over-Union (IoU) on whole tumor volume",
+      "Attention gates suppressing background noise while accentuating lesion boundaries",
+      "Sub-2-second inference with interactive clinical Streamlit 3D visualization",
     ],
-    githubUrl: "https://github.com/Abdul-Insighht/SOCT-SAM",
-    tags: ["Foundation Models", "SAM", "Ophthalmology", "Zero-Shot", "Computer Vision"],
+    githubUrl: "https://github.com/Abdul-Insighht/Brain-Tumor-Segmentation-BraTS-2020",
+    tags: ["Attention U-Net", "PyTorch", "BraTS 2020", "Medical AI", "Volumetric 3D"],
+  },
+]
+
+const AWARDS_ACHIEVEMENTS = [
+  {
+    id: "gift-fyp-display",
+    title: "4th Place (out of 64 teams)",
+    organization: "GIFT University Final Year Project Display 2026",
+    year: "2026",
+    badge: "Finalist & Winner",
+    description: "Awarded 4th place for developing the Optimal Transport Alignment and Segment Anything Model (SAM) remote sensing system among 64 competing teams.",
   },
   {
-    id: "rrsis-survey",
-    title: "Referring Remote Sensing Image Segmentation (RRSIS) Cross-Modal Benchmark",
-    dataset: "Multi-Spectral Aerial & Satellite Datasets",
-    authors: "Hafiz Abdul Rehman",
-    status: "Comprehensive Survey & Codebase",
-    accuracy: "Cross-Modal Benchmark",
-    abstract:
-      "An in-depth investigation into natural language-guided aerial remote sensing object segmentation. Evaluates cross-modal multi-head attention mechanisms and multi-scale feature pyramids on dense geographic satellite scenes.",
-    highlights: [
-      "Taxonomy of linguistic vision groundings in earth observation",
-      "Benchmark comparisons of Transformer backbones on RRSIS-D",
-      "Open-source evaluation scripts and standardized metric runners",
-    ],
-    githubUrl: "https://github.com/Abdul-Insighht/Awesome-RRSIS-Survey",
-    tags: ["Remote Sensing", "Cross-Modal Attention", "Satellite AI", "Vision-Language"],
+    id: "national-skills-test",
+    title: "90th Percentile Nationwide",
+    organization: "Pakistan National Skills Competency Test (34,000+ participants)",
+    year: "2026",
+    badge: "Top 10% Nationwide",
+    description: "Ranked in the 90th percentile among 34,000+ national candidates in competitive technical and data science competencies.",
+  },
+  {
+    id: "usaii-cogniflow",
+    title: "Top 100 Globally — CogniFlow",
+    organization: "USAII Global AI Hackathon",
+    year: "2025",
+    badge: "Global Finalist",
+    description: "Built CogniFlow: an AI cognitive load estimation and action planning system utilizing multimodal behavioral telemetry.",
+  },
+  {
+    id: "harvard-hsil",
+    title: "Harvard Health Systems Innovation Lab (HSIL)",
+    organization: "HSIL 7th Edition (Onsite)",
+    year: "2025",
+    badge: "Healthcare Innovation",
+    description: "AI mental health monitoring platform with digital phenotyping, behavioral telemetry, and CBT-based interventions.",
+  },
+  {
+    id: "brightdata-vendorsentinel",
+    title: "VendorSentinel — Bright Data Hackathon",
+    organization: "lablab.ai & Bright Data",
+    year: "2025",
+    badge: "Risk Intelligence",
+    description: "AI-powered vendor risk intelligence platform integrating real-time web scraping data with an automated risk scoring engine.",
+  },
+  {
+    id: "lablab-neuralnexus",
+    title: "NeuralNexus — Enterprise AI Hackathon",
+    organization: "lablab.ai Enterprise AI",
+    year: "2025",
+    badge: "Multi-Agent AI",
+    description: "Multi-agent financial intelligence system for automatic cross-document contradiction detection and proactive insight surfacing.",
   },
 ]
 
 export default function ResearchPublications() {
-  const [expandedId, setExpandedId] = useState<string | null>("brats-attention-unet")
+  const [expandedId, setExpandedId] = useState<string | null>("fyp-remote-sensing-ot-sam")
 
   return (
     <section id="research" className="py-24 relative overflow-hidden bg-slate-900/30">
@@ -95,20 +147,19 @@ export default function ResearchPublications() {
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold uppercase tracking-wider mb-3">
             <BookOpen className="h-3.5 w-3.5" />
-            Empirical Publications & Whitepapers
+            Empirical Publications & Research
           </div>
           <h2 className="text-3xl md:text-5xl font-bold mb-4 section-underline">
             Research & Academic Contributions
           </h2>
           <p className="mt-6 text-muted-foreground max-w-2xl mx-auto text-base sm:text-lg">
-            Investigating novel mathematical architectures, soft attention mechanisms, and non-linear ensembles applied to high-stakes healthcare and remote sensing benchmarks.
+            Investigating mathematical loss formulations, Optimal Transport cross-modal alignment, topological data analysis, and attention mechanisms.
           </p>
         </motion.div>
 
         {/* Papers List */}
-        <div className="space-y-6 max-w-5xl mx-auto">
+        <div className="space-y-6 max-w-5xl mx-auto mb-20">
           {RESEARCH_PAPERS.map((paper, idx) => {
-            const isExpanded = expandedId === paper.id
             return (
               <motion.div
                 key={paper.id}
@@ -183,6 +234,51 @@ export default function ResearchPublications() {
               </motion.div>
             )
           })}
+        </div>
+
+        {/* Achievements & Awards Subsection */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          viewport={{ once: true }}
+          className="text-center mb-12"
+        >
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold uppercase tracking-wider mb-3">
+            <Award className="h-3.5 w-3.5" />
+            Competitive Honors & Hackathons
+          </div>
+          <h3 className="text-2xl md:text-4xl font-bold text-white mb-3">
+            Achievements & Recognition
+          </h3>
+          <p className="text-sm text-muted-foreground max-w-xl mx-auto">
+            Recognized across university displays, nationwide competency benchmarks, and international hackathons.
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {AWARDS_ACHIEVEMENTS.map((award, i) => (
+            <motion.div
+              key={award.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: i * 0.08 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between shadow-lg"
+            >
+              <div>
+                <div className="flex items-center justify-between gap-2 mb-3">
+                  <Badge variant="outline" className="border-amber-500/30 text-amber-400 bg-amber-500/10 text-xs">
+                    {award.badge}
+                  </Badge>
+                  <span className="text-xs text-muted-foreground font-mono">{award.year}</span>
+                </div>
+                <h4 className="text-lg font-bold text-white mb-1.5">{award.title}</h4>
+                <p className="text-xs font-medium text-primary mb-3">{award.organization}</p>
+                <p className="text-xs text-slate-300 leading-relaxed">{award.description}</p>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

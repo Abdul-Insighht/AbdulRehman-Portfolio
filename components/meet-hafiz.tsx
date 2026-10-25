@@ -50,7 +50,7 @@ export default function MeetHafiz() {
                 </div>
                 <div>
                   <h3 className="text-lg font-bold text-white">Hafiz Abdul Rehman</h3>
-                  <p className="text-xs text-primary font-medium">Data Scientist & AI Engineer</p>
+                  <p className="text-xs text-primary font-medium">AI & Machine Learning Engineer</p>
                   <p className="text-xs text-muted-foreground flex items-center gap-1 mt-1">
                     <MapPin className="h-3 w-3 text-slate-400" />
                     Pakistan • Worldwide Remote
@@ -59,7 +59,7 @@ export default function MeetHafiz() {
               </div>
 
               <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mb-6">
-                Graduate in Computer Science from <strong>GIFT University</strong>. Focused on end-to-end ML pipelines: from dataset curation and mathematical loss formulation to GPU inference optimization and Dockerized API deployment.
+                Bachelor of Science in Data Science (2022 – 2026) from <strong>GIFT University</strong> (CGPA: 3.68/4.0, Semesters 7 & 8: 4.0/4.0). AI & Machine Learning Engineer at AiBit Soft developing AURA OS multi-agent assistant, real-time computer vision telemetry, and enterprise RAG pipelines.
               </p>
 
               {/* Credibility Checklist */}

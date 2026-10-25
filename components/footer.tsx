@@ -36,58 +36,48 @@ export default function Footer() {
                     {/* Col 2: Explore (3 cols) */}
                     <div className="lg:col-span-3 space-y-3">
                         <h4 className="text-xs uppercase tracking-wider font-bold text-white">
-                            Explore Portfolio
+                            Explore
                         </h4>
                         <ul className="space-y-2 text-sm text-slate-400">
                             <li>
                                 <Link href="/#meet-hafiz" className="hover:text-primary transition-colors">
-                                    01 / Meet Hafiz (About)
+                                    About (Meet Hafiz)
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#services" className="hover:text-primary transition-colors">
-                                    02 / Client Services
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/#tech-stack" className="hover:text-primary transition-colors">
-                                    03 / Stack by Domain
+                                    Services & Offerings
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#projects" className="hover:text-primary transition-colors">
-                                    04 / Curated Projects (57 Repos)
+                                    Browse Curated Projects
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#visualization" className="hover:text-primary transition-colors">
-                                    05 / Visual Analytics & Dashboards
+                                <Link href="/#experience" className="hover:text-primary transition-colors">
+                                    Professional Experience
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#research" className="hover:text-primary transition-colors">
-                                    06 / Empirical Research & Whitepapers
+                                    Research & Publications
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/#supervisions" className="hover:text-primary transition-colors">
-                                    07 / Supervisions & Mentorship
-                                </Link>
-                            </li>
-                            <li>
-                                <Link href="/#certificates" className="hover:text-primary transition-colors">
-                                    08 / Certificates & Badges
+                                <Link href="/#education" className="hover:text-primary transition-colors">
+                                    Education & Certifications
                                 </Link>
                             </li>
                             <li>
                                 <Link href="/#contact" className="hover:text-primary transition-colors">
-                                    07 / Contact & Inquiries
+                                    Contact & Inquiries
                                 </Link>
                             </li>
                         </ul>
                     </div>
 
-                    {/* Col 3: Resources (2 cols) (Shawaiz inspired) */}
+                    {/* Col 3: Resources (2 cols) */}
                     <div className="lg:col-span-2 space-y-3">
                         <h4 className="text-xs uppercase tracking-wider font-bold text-white">
                             Resources
@@ -106,19 +96,30 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <span className="text-slate-500 cursor-not-allowed text-xs">
-                                    Blog & Articles (Soon)
-                                </span>
+                                <Link href="/#research" className="hover:text-primary transition-colors">
+                                    Blog & Research
+                                </Link>
                             </li>
                             <li>
-                                <span className="text-slate-500 cursor-not-allowed text-xs">
-                                    Shop / AI Templates (Soon)
-                                </span>
+                                <Link href="/#services" className="hover:text-primary transition-colors">
+                                    AI Shop & Solutions
+                                </Link>
                             </li>
                             <li>
-                                <span className="text-slate-500 cursor-not-allowed text-xs">
-                                    Client Project Tracker (Soon)
-                                </span>
+                                <Link href="/#contact" className="hover:text-primary transition-colors">
+                                    Order / Project Status Check
+                                </Link>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://education.github.com/pack"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="hover:text-primary transition-colors flex items-center gap-1"
+                                >
+                                    GitHub Student Pack
+                                    <ExternalLink className="h-3 w-3 text-primary" />
+                                </a>
                             </li>
                         </ul>
                     </div>

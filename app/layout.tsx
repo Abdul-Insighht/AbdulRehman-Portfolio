@@ -7,6 +7,7 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Toaster } from "@/components/ui/toaster"
 import ParticlesBackground from "@/components/particles-background"
+import MathNeuralBackground from "@/components/math-neural-background"
 import AbdulInsightBot from "@/components/abdul-insight-bot"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -27,8 +28,9 @@ export default function RootLayout({
         <html lang="en" suppressHydrationWarning>
             <body className={inter.className}>
                 <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+                    <MathNeuralBackground />
                     <ParticlesBackground />
-                    <div className="flex min-h-screen flex-col">
+                    <div className="flex min-h-screen flex-col relative z-10">
                         <Navbar />
                         <main className="flex-1">{children}</main>
                         <Footer />

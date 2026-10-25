@@ -83,11 +83,12 @@ export default function About() {
                         </div>
 
                         <p className="text-muted-foreground mb-6 leading-relaxed">
-                            Senior Data Scientist specializing in Machine Learning, Deep Learning, and Computer Vision.
-                            I develop and deploy advanced AI solutions including foundation models, knowledge distillation
-                            frameworks, and real-time computer vision systems. Experienced in medical imaging, intelligent
-                            transportation systems, security surveillance, and healthcare analytics. Passionate about
-                            building Agentic AI systems and RAG-powered applications.
+                            AI & Machine Learning Engineer with hands-on industry and research experience building end-to-end
+                            intelligent systems across Machine Learning, Deep Learning, Computer Vision, and Generative AI.
+                            Proven track record delivering production-ready solutions including RAG pipelines, LLM-based chatbots,
+                            multi-agent AI systems, document intelligence, OCR, YOLO-based object detection, and image segmentation.
+                            Experienced in full ML lifecycle from data annotation and model training to deployment with FastAPI,
+                            Streamlit, and Docker.
                         </p>
                     </motion.div>
                 </div>
