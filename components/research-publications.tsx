@@ -244,7 +244,7 @@ export default function ResearchPublications() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 text-xs font-semibold uppercase tracking-wider mb-3">
             <Award className="h-3.5 w-3.5" />
             Competitive Honors & Hackathons
           </div>
@@ -264,11 +264,11 @@ export default function ResearchPublications() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: i * 0.08 }}
               viewport={{ once: true }}
-              className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-amber-500/40 transition-all flex flex-col justify-between shadow-lg"
+              className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 hover:border-teal-500/40 transition-all flex flex-col justify-between shadow-lg"
             >
               <div>
                 <div className="flex items-center justify-between gap-2 mb-3">
-                  <Badge variant="outline" className="border-amber-500/30 text-amber-400 bg-amber-500/10 text-xs">
+                  <Badge variant="outline" className="border-teal-500/30 text-teal-300 bg-teal-500/10 text-xs">
                     {award.badge}
                   </Badge>
                   <span className="text-xs text-muted-foreground font-mono">{award.year}</span>

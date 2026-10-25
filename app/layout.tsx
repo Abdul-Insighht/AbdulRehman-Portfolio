@@ -3,8 +3,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
-import Navbar from "@/components/navbar"
-import Footer from "@/components/footer"
+import SiteLayout from "@/components/site-layout"
 import { Toaster } from "@/components/ui/toaster"
 import ParticlesBackground from "@/components/particles-background"
 import MathNeuralBackground from "@/components/math-neural-background"
@@ -30,11 +29,7 @@ export default function RootLayout({
                 <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
                     <MathNeuralBackground />
                     <ParticlesBackground />
-                    <div className="flex min-h-screen flex-col relative z-10">
-                        <Navbar />
-                        <main className="flex-1">{children}</main>
-                        <Footer />
-                    </div>
+                    <SiteLayout>{children}</SiteLayout>
                     <AbdulInsightBot />
                     <Toaster />
                 </ThemeProvider>

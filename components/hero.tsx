@@ -104,7 +104,7 @@ export default function Hero() {
                             Agentic AI & RAG
                         </Badge>
                         <Badge variant="secondary" className="text-xs sm:text-sm px-3.5 py-1.5 flex items-center gap-1.5 hover:bg-primary/20 hover:text-primary transition-colors">
-                            <Cpu className="h-3.5 w-3.5 text-amber-400" />
+                            <Cpu className="h-3.5 w-3.5 text-teal-400" />
                             Fuzzy Ensemble (98.93% Acc)
                         </Badge>
                         <Badge variant="secondary" className="text-xs sm:text-sm px-3.5 py-1.5 hover:bg-primary/20 hover:text-primary transition-colors">

@@ -103,7 +103,7 @@ export default function Projects() {
       case "deep-learning":
         return "bg-emerald-500/20 text-emerald-300 border-emerald-500/30"
       case "data-science":
-        return "bg-amber-500/20 text-amber-300 border-amber-500/30"
+        return "bg-teal-500/20 text-teal-300 border-teal-500/30"
       case "web-fullstack":
         return "bg-blue-500/20 text-blue-300 border-blue-500/30"
       default:

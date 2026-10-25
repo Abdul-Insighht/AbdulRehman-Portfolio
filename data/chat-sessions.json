@@ -112,9 +112,9 @@
   {
     "sessionId": "test_session_automated_eval",
     "startedAt": "2026-10-25T08:39:59.571Z",
-    "lastActiveAt": "2026-10-25T10:27:35.791Z",
+    "lastActiveAt": "2026-10-25T10:46:44.640Z",
     "visitorIp": "::1",
-    "messageCount": 128,
+    "messageCount": 176,
     "messages": [
       {
         "id": "9ba6qtr",
@@ -1009,6 +1009,342 @@
         "role": "assistant",
         "content": "You can reach Hafiz directly via email at hafizrehman3321@gmail.com or on WhatsApp at +92 328 3121702. He is available for full-time engineering opportunities and selective freelance client projects, and usually replies within one business day.",
         "timestamp": "2026-10-25T10:27:35.791Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "jdgmypb",
+        "role": "user",
+        "content": "Hello! Can you tell me about yourself and your background?",
+        "timestamp": "2026-10-25T10:43:48.278Z"
+      },
+      {
+        "id": "auz0jb6",
+        "role": "assistant",
+        "content": "Assalam o Alaikum and welcome! I am AbdulInsight AI, the personal portfolio assistant for Hafiz Abdul Rehman, an AI & Machine Learning Engineer.\n\nI can share verified facts about his industry work at AiBit Soft, research publications (including the 99.64% BraTS U-Net and COVID TDA ensemble), computer vision systems, or RAG architectures across his 57 repositories.\n\nHow can I help you today?",
+        "timestamp": "2026-10-25T10:43:48.279Z",
+        "model": "zero-token-greeting",
+        "latencyMs": 3
+      },
+      {
+        "id": "xto7jph",
+        "role": "user",
+        "content": "What was your accuracy on the BraTS 2020 brain tumor segmentation dataset?",
+        "timestamp": "2026-10-25T10:43:48.301Z"
+      },
+      {
+        "id": "z79mnnj",
+        "role": "assistant",
+        "content": "For 3D MRI brain tumor segmentation, Hafiz engineered an Attention U-Net on the BraTS 2020 dataset. Using soft attention gates to filter background noise and focal dice loss to handle class imbalance, the system achieved 99.64% validation accuracy and a 0.986 Mean IoU.",
+        "timestamp": "2026-10-25T10:43:48.302Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "4ep0zi0",
+        "role": "user",
+        "content": "Tell me about the COVID-19 detection ensemble and fuzzy integral.",
+        "timestamp": "2026-10-25T10:43:48.323Z"
+      },
+      {
+        "id": "y1zpooc",
+        "role": "assistant",
+        "content": "His research on COVID-19 detection from lung CT scans uses a Sugeno Fuzzy Integral decision fusion ensemble combining VGG-11, GoogLeNet, SqueezeNet, and Wide ResNet-50-2, achieving 98.93% test accuracy and 99.1% sensitivity alongside Topological Data Analysis (TDA).",
+        "timestamp": "2026-10-25T10:43:48.324Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "wrsvcq7",
+        "role": "user",
+        "content": "How does your real-time vehicle speed and football player tracking work?",
+        "timestamp": "2026-10-25T10:43:48.342Z"
+      },
+      {
+        "id": "qvaqnlu",
+        "role": "assistant",
+        "content": "In computer vision, Hafiz has built multiple deployed systems:\n- Drone fire and smoke detection trained on 22,000+ aerial images using YOLOv8.\n- PPE safety compliance system achieving 91% precision for helmet and vest detection on live CCTV feeds.\n- Real-time football player tracking at 60+ FPS with YOLO and ByteTrack.\n- Vehicle speed detection and telemetry using YOLO11 paired with inverse perspective homography calibration within 2.5 km/h.",
+        "timestamp": "2026-10-25T10:43:48.344Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 1
+      },
+      {
+        "id": "qzp3qnh",
+        "role": "user",
+        "content": "Tell me about the Research Components Extractor RAG pipeline.",
+        "timestamp": "2026-10-25T10:43:48.362Z"
+      },
+      {
+        "id": "e5e4gze",
+        "role": "assistant",
+        "content": "In agentic AI and RAG, Hafiz has built:\n- Application Tracking System (ATS) RAG chatbot using LangChain, vector databases, and FastAPI to automate candidate resume screening.\n- GmailDraft autonomous assistant using Next.js and Llama 3.3 for inbox monitoring and draft generation.\n- Research Components Extractor parsing complex scientific whitepapers into structured LaTeX tables with ChromaDB.",
+        "timestamp": "2026-10-25T10:43:48.364Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 1
+      },
+      {
+        "id": "khpulo2",
+        "role": "user",
+        "content": "What data visualization tools and model telemetry do you build?",
+        "timestamp": "2026-10-25T10:43:48.379Z"
+      },
+      {
+        "id": "hk1m6or",
+        "role": "assistant",
+        "content": "Hafiz builds interactive visual analytics and real-time model telemetry dashboards using Streamlit, Plotly, Power BI, and t-SNE dimensionality reduction to monitor loss curves, inference latencies, and high-dimensional feature embeddings.",
+        "timestamp": "2026-10-25T10:43:48.380Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 1
+      },
+      {
+        "id": "bcsfors",
+        "role": "user",
+        "content": "What undergraduate capstone projects have you supervised?",
+        "timestamp": "2026-10-25T10:43:48.406Z"
+      },
+      {
+        "id": "fg4ey9b",
+        "role": "assistant",
+        "content": "In academic supervisions and mentorship at GIFT University, Hafiz advised undergraduate capstone projects including 3D Attention U-Net brain lesion segmentation pipelines and clinical decision support RAG assistants, guiding students on vector indexing and GPU inference optimization.",
+        "timestamp": "2026-10-25T10:43:48.407Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "i1nkd6u",
+        "role": "user",
+        "content": "I would like to hire Hafiz for a computer vision project. How can I contact him?",
+        "timestamp": "2026-10-25T10:43:48.422Z"
+      },
+      {
+        "id": "5bn8385",
+        "role": "assistant",
+        "content": "You can reach Hafiz directly via email at hafizrehman3321@gmail.com or on WhatsApp at +92 328 3121702. He is available for full-time engineering opportunities and selective freelance client projects, and usually replies within one business day.",
+        "timestamp": "2026-10-25T10:43:48.424Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "mehoqlw",
+        "role": "user",
+        "content": "Hello! Can you tell me about yourself and your background?",
+        "timestamp": "2026-10-25T10:46:21.248Z"
+      },
+      {
+        "id": "xrnh712",
+        "role": "assistant",
+        "content": "Assalam o Alaikum and welcome! I am AbdulInsight AI, the personal portfolio assistant for Hafiz Abdul Rehman, an AI & Machine Learning Engineer.\n\nI can share verified facts about his industry work at AiBit Soft, research publications (including the 99.64% BraTS U-Net and COVID TDA ensemble), computer vision systems, or RAG architectures across his 57 repositories.\n\nHow can I help you today?",
+        "timestamp": "2026-10-25T10:46:21.250Z",
+        "model": "zero-token-greeting",
+        "latencyMs": 2
+      },
+      {
+        "id": "otbfk8a",
+        "role": "user",
+        "content": "What was your accuracy on the BraTS 2020 brain tumor segmentation dataset?",
+        "timestamp": "2026-10-25T10:46:21.263Z"
+      },
+      {
+        "id": "chwe90s",
+        "role": "assistant",
+        "content": "For 3D MRI brain tumor segmentation, Hafiz engineered an Attention U-Net on the BraTS 2020 dataset. Using soft attention gates to filter background noise and focal dice loss to handle class imbalance, the system achieved 99.64% validation accuracy and a 0.986 Mean IoU.",
+        "timestamp": "2026-10-25T10:46:21.265Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "ycg8kt1",
+        "role": "user",
+        "content": "Tell me about the COVID-19 detection ensemble and fuzzy integral.",
+        "timestamp": "2026-10-25T10:46:21.290Z"
+      },
+      {
+        "id": "sa52q3y",
+        "role": "assistant",
+        "content": "His research on COVID-19 detection from lung CT scans uses a Sugeno Fuzzy Integral decision fusion ensemble combining VGG-11, GoogLeNet, SqueezeNet, and Wide ResNet-50-2, achieving 98.93% test accuracy and 99.1% sensitivity alongside Topological Data Analysis (TDA).",
+        "timestamp": "2026-10-25T10:46:21.291Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "noianh3",
+        "role": "user",
+        "content": "How does your real-time vehicle speed and football player tracking work?",
+        "timestamp": "2026-10-25T10:46:21.323Z"
+      },
+      {
+        "id": "2dz5yom",
+        "role": "assistant",
+        "content": "In computer vision, Hafiz has built multiple deployed systems:\n- Drone fire and smoke detection trained on 22,000+ aerial images using YOLOv8.\n- PPE safety compliance system achieving 91% precision for helmet and vest detection on live CCTV feeds.\n- Real-time football player tracking at 60+ FPS with YOLO and ByteTrack.\n- Vehicle speed detection and telemetry using YOLO11 paired with inverse perspective homography calibration within 2.5 km/h.",
+        "timestamp": "2026-10-25T10:46:21.325Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "xxbp3pa",
+        "role": "user",
+        "content": "Tell me about the Research Components Extractor RAG pipeline.",
+        "timestamp": "2026-10-25T10:46:21.338Z"
+      },
+      {
+        "id": "d0m5qik",
+        "role": "assistant",
+        "content": "In agentic AI and RAG, Hafiz has built:\n- Application Tracking System (ATS) RAG chatbot using LangChain, vector databases, and FastAPI to automate candidate resume screening.\n- GmailDraft autonomous assistant using Next.js and Llama 3.3 for inbox monitoring and draft generation.\n- Research Components Extractor parsing complex scientific whitepapers into structured LaTeX tables with ChromaDB.",
+        "timestamp": "2026-10-25T10:46:21.345Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 8
+      },
+      {
+        "id": "0ika9qu",
+        "role": "user",
+        "content": "What data visualization tools and model telemetry do you build?",
+        "timestamp": "2026-10-25T10:46:21.360Z"
+      },
+      {
+        "id": "aazob01",
+        "role": "assistant",
+        "content": "Hafiz builds interactive visual analytics and real-time model telemetry dashboards using Streamlit, Plotly, Power BI, and t-SNE dimensionality reduction to monitor loss curves, inference latencies, and high-dimensional feature embeddings.",
+        "timestamp": "2026-10-25T10:46:21.361Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "1yjqz7z",
+        "role": "user",
+        "content": "What undergraduate capstone projects have you supervised?",
+        "timestamp": "2026-10-25T10:46:21.377Z"
+      },
+      {
+        "id": "eslcawn",
+        "role": "assistant",
+        "content": "In academic supervisions and mentorship at GIFT University, Hafiz advised undergraduate capstone projects including 3D Attention U-Net brain lesion segmentation pipelines and clinical decision support RAG assistants, guiding students on vector indexing and GPU inference optimization.",
+        "timestamp": "2026-10-25T10:46:21.378Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "zqa1h73",
+        "role": "user",
+        "content": "I would like to hire Hafiz for a computer vision project. How can I contact him?",
+        "timestamp": "2026-10-25T10:46:21.390Z"
+      },
+      {
+        "id": "pq3hxfw",
+        "role": "assistant",
+        "content": "You can reach Hafiz directly via email at hafizrehman3321@gmail.com or on WhatsApp at +92 328 3121702. He is available for full-time engineering opportunities and selective freelance client projects, and usually replies within one business day.",
+        "timestamp": "2026-10-25T10:46:21.391Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "snmz105",
+        "role": "user",
+        "content": "Hello! Can you tell me about yourself and your background?",
+        "timestamp": "2026-10-25T10:46:44.435Z"
+      },
+      {
+        "id": "cu2tw2d",
+        "role": "assistant",
+        "content": "Assalam o Alaikum and welcome! I am AbdulInsight AI, the personal portfolio assistant for Hafiz Abdul Rehman, an AI & Machine Learning Engineer.\n\nI can share verified facts about his industry work at AiBit Soft, research publications (including the 99.64% BraTS U-Net and COVID TDA ensemble), computer vision systems, or RAG architectures across his 57 repositories.\n\nHow can I help you today?",
+        "timestamp": "2026-10-25T10:46:44.436Z",
+        "model": "zero-token-greeting",
+        "latencyMs": 3
+      },
+      {
+        "id": "2ne7cc7",
+        "role": "user",
+        "content": "What was your accuracy on the BraTS 2020 brain tumor segmentation dataset?",
+        "timestamp": "2026-10-25T10:46:44.465Z"
+      },
+      {
+        "id": "v4vgbus",
+        "role": "assistant",
+        "content": "For 3D MRI brain tumor segmentation, Hafiz engineered an Attention U-Net on the BraTS 2020 dataset. Using soft attention gates to filter background noise and focal dice loss to handle class imbalance, the system achieved 99.64% validation accuracy and a 0.986 Mean IoU.",
+        "timestamp": "2026-10-25T10:46:44.467Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 5
+      },
+      {
+        "id": "q0tl2l0",
+        "role": "user",
+        "content": "Tell me about the COVID-19 detection ensemble and fuzzy integral.",
+        "timestamp": "2026-10-25T10:46:44.502Z"
+      },
+      {
+        "id": "vmvv1la",
+        "role": "assistant",
+        "content": "His research on COVID-19 detection from lung CT scans uses a Sugeno Fuzzy Integral decision fusion ensemble combining VGG-11, GoogLeNet, SqueezeNet, and Wide ResNet-50-2, achieving 98.93% test accuracy and 99.1% sensitivity alongside Topological Data Analysis (TDA).",
+        "timestamp": "2026-10-25T10:46:44.503Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "evzhawm",
+        "role": "user",
+        "content": "How does your real-time vehicle speed and football player tracking work?",
+        "timestamp": "2026-10-25T10:46:44.522Z"
+      },
+      {
+        "id": "z1jfiks",
+        "role": "assistant",
+        "content": "In computer vision, Hafiz has built multiple deployed systems:\n- Drone fire and smoke detection trained on 22,000+ aerial images using YOLOv8.\n- PPE safety compliance system achieving 91% precision for helmet and vest detection on live CCTV feeds.\n- Real-time football player tracking at 60+ FPS with YOLO and ByteTrack.\n- Vehicle speed detection and telemetry using YOLO11 paired with inverse perspective homography calibration within 2.5 km/h.",
+        "timestamp": "2026-10-25T10:46:44.524Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "cakuaap",
+        "role": "user",
+        "content": "Tell me about the Research Components Extractor RAG pipeline.",
+        "timestamp": "2026-10-25T10:46:44.568Z"
+      },
+      {
+        "id": "ppvxm4n",
+        "role": "assistant",
+        "content": "In agentic AI and RAG, Hafiz has built:\n- Application Tracking System (ATS) RAG chatbot using LangChain, vector databases, and FastAPI to automate candidate resume screening.\n- GmailDraft autonomous assistant using Next.js and Llama 3.3 for inbox monitoring and draft generation.\n- Research Components Extractor parsing complex scientific whitepapers into structured LaTeX tables with ChromaDB.",
+        "timestamp": "2026-10-25T10:46:44.570Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 15
+      },
+      {
+        "id": "i0s0tb4",
+        "role": "user",
+        "content": "What data visualization tools and model telemetry do you build?",
+        "timestamp": "2026-10-25T10:46:44.591Z"
+      },
+      {
+        "id": "nu6qrei",
+        "role": "assistant",
+        "content": "Hafiz builds interactive visual analytics and real-time model telemetry dashboards using Streamlit, Plotly, Power BI, and t-SNE dimensionality reduction to monitor loss curves, inference latencies, and high-dimensional feature embeddings.",
+        "timestamp": "2026-10-25T10:46:44.592Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 3
+      },
+      {
+        "id": "d0w6oqs",
+        "role": "user",
+        "content": "What undergraduate capstone projects have you supervised?",
+        "timestamp": "2026-10-25T10:46:44.607Z"
+      },
+      {
+        "id": "ykluh76",
+        "role": "assistant",
+        "content": "In academic supervisions and mentorship at GIFT University, Hafiz advised undergraduate capstone projects including 3D Attention U-Net brain lesion segmentation pipelines and clinical decision support RAG assistants, guiding students on vector indexing and GPU inference optimization.",
+        "timestamp": "2026-10-25T10:46:44.609Z",
+        "model": "abdulinsight-local-rag-v1",
+        "latencyMs": 2
+      },
+      {
+        "id": "x1zchcq",
+        "role": "user",
+        "content": "I would like to hire Hafiz for a computer vision project. How can I contact him?",
+        "timestamp": "2026-10-25T10:46:44.639Z"
+      },
+      {
+        "id": "irqj9kd",
+        "role": "assistant",
+        "content": "You can reach Hafiz directly via email at hafizrehman3321@gmail.com or on WhatsApp at +92 328 3121702. He is available for full-time engineering opportunities and selective freelance client projects, and usually replies within one business day.",
+        "timestamp": "2026-10-25T10:46:44.640Z",
         "model": "abdulinsight-local-rag-v1",
         "latencyMs": 2
       }

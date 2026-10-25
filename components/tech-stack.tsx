@@ -84,7 +84,7 @@ const TECH_DOMAINS: TechDomain[] = [
     title: "Data Science, Analytics & Math",
     description: "Exploratory data analysis, automated LaTeX reporting, hypothesis testing, and multidimensional visualization.",
     icon: Cpu,
-    badgeColor: "bg-amber-500/15 text-amber-400 border-amber-500/30",
+    badgeColor: "bg-teal-500/15 text-teal-300 border-teal-500/30",
     skills: [
       { name: "Pandas", level: "Expert", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" },
       { name: "NumPy", level: "Expert", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" },
