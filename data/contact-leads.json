@@ -1,0 +1,57 @@
+[
+  {
+    "id": "lead_1792920399426_26rva",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T09:26:39.426Z",
+    "status": "new"
+  },
+  {
+    "id": "lead_1792917748979_8y355",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T08:42:28.979Z",
+    "status": "new"
+  },
+  {
+    "id": "lead_1792917727477_34j62",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T08:42:07.477Z",
+    "status": "new"
+  },
+  {
+    "id": "lead_1792917712053_aqqwe",
+    "name": "Dr. Sarah Mitchell",
+    "email": "sarah.mitchell@medvision-health.org",
+    "projectType": "Medical AI & Pathology Analysis",
+    "timeline": "1-2 Months",
+    "description": "We are seeking an AI engineer to adapt an Attention U-Net on our clinical histopathology slices.",
+    "source": "Direct Portfolio",
+    "createdAt": "2026-10-25T08:41:52.053Z",
+    "status": "new"
+  },
+  {
+    "id": "lead_1792916967914_zun7w",
+    "name": "Client Engineering Lead",
+    "email": "lead@visioncorp.ai",
+    "projectType": "Computer Vision System",
+    "timeline": "ASAP (within 2 weeks)",
+    "description": "Looking to deploy a real-time YOLO vehicle detection and tracking system on highway cameras.",
+    "source": "GitHub",
+    "createdAt": "2026-10-25T08:29:27.914Z",
+    "status": "new"
+  }
+]
